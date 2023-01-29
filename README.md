@@ -1,2 +1,2 @@
 # RotaScheduler
-Google App Script for allowing users to create Calendar Events from Sheets
+I made this Google Workspace AppScript to help organize my partner's calendar, since her work schedule was listed in a convoluted excel document grid that does not list dates. This app script looks for a users name in the excel sheet, then identifies where the borders start for the table grid in the sheet. It then iterates through each cell in the defined boundaries and adds a calendar event for each. 
